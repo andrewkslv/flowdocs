@@ -1,21 +1,27 @@
 # What is it?
 
-Flowdocs allows you to quickly describe all possible outcomes of a given feature / screen / function.
-It can describe the very top level of business logic as well as low level interactions within the code itself.
-It's easily maintainable, especially with git version control.
-Applicable for new features descriptions: just make changes in the given piece of logic and push it to the repo. Anyone can see the diff and easily understand what exactly need to be changed.
-You can use the same approach to describe client-side UI features as well as server-side logic.
-Multiple instances of the code Flowdocs can be easily interconnected.
+This documentation technique allows you to:
+
+- describe all possible scenarios that can happen in a given screen or script without language- or platform- specific syntax
+- express complex concepts using a compact, terse syntax
+- keep it under version control
+- create new features or changes descriptions as easily as changing few lines and pushing it to repo
+- describe the very top level of business logic as well as low level interactions within the code itself
+- accurately communicate with non-technically-educated people about
+- interconnect multiple instances of the code Flowdocs
 
 # How it works
 
-Let's say we have a mobile app, that is connected to api server. In the given case our goal is to discribe authentication process.
+Let's say we have a mobile app, that is connected to api server. In the given case our goal is to describe authentication process.
 
 ***
 
 ## Artboards
 
+Use artboards to describe visual look of the given UI
 ![Artboards](./assets/artboards.png)
+
+Use intercatives to describe animations with [Framer](https://framer.com/), for example.
 
 ***
 
@@ -140,4 +146,3 @@ $  - function, that can be induced only by server
 ```
 
 ***
-
