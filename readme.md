@@ -14,9 +14,10 @@ This documentation technique allows you to:
 
 Let's say we have a mobile app, that is connected to api server. In the given case our goal is to describe authentication process.
 
-***
 
-## Artboards
+# Usage example
+
+## 1. Artboards
 
 Use artboards to describe visual look of the given UI
 ![Artboards](./assets/artboards.png)
@@ -25,9 +26,9 @@ Use intercatives to describe animations with [Framer](https://framer.com/), for 
 
 ***
 
-## Client side
+## 2. Client side docs
 
-## Legend
+**Syntax for client side**
 
 ```
 |  - scene
@@ -37,7 +38,9 @@ Use intercatives to describe animations with [Framer](https://framer.com/), for 
 ?  - if else statement
 ~  - request to server
 ```
-## Scenes
+
+**Scenes:**  
+> Each scene described separetely from each other. Description assumes that reader is looking at the related artboard.
 
 ### Login
 ```
@@ -84,9 +87,9 @@ Use intercatives to describe animations with [Framer](https://framer.com/), for 
 
 ***
 
-## Server side
+## 2. Server side docs
 
-## Legend
+**Server side syntax:**
 ```
 $  - function, that can be induced only by server
 ?  - if/else statement
@@ -95,7 +98,9 @@ $  - function, that can be induced only by server
 ~  - response/call to client
 ```
 
-## Api methods
+**Api methods:**  
+
+> In this example i'm using only Api methods descriptions for sake of simplisity, but feel free to adopt the same approach for different cases.
 
 ### signIn
 ```
